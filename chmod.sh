@@ -2,3 +2,9 @@ chmod +x chmod.sh
 chmod +x up.sh
 chmod +x gitupdate.sh
 chmod +x firewall.sh
+chmod +x backupdb.sh
+chmod +x dbrestore.sh
+chmod +x install.sh
+chmod +x zbackuprestoretest.sh
+chmod +x zbackuptest.sh
+chmod +x zchownconfig.sh
