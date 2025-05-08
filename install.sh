@@ -18,6 +18,7 @@ sudo pip install --upgrade pip
 sudo pip install python-wordpress-xmlrpc
 sudo apt install python3 python3-pip -y
 sudo apt-get update -y
+
 # ls -lh /root/zarthistweb
 # sudo chown -R www-data:www-data /root/zarthistweb/
 # sudo chown www-data:www-data /root/zarthistweb/

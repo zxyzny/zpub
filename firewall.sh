@@ -1,12 +1,12 @@
 sudo ufw status
-sudo ufw allow 22
-sudo ufw deny 80
-sudo ufw allow icmp
-sudo ufw deny 443
-sudo ufw deny 3306
-sudo ufw deny 6379
-sudo ufw enable
+sudo ufw disable
 sudo ufw status
-sudo systemctl restart ufw
-sudo ufw status
+# sudo systemctl restart ufw
+# sudo ufw status
+sudo iptables -A INPUT -i eth0 -p tcp --dport 3306 -j DROP
+sudo iptables -A INPUT -i eth0 -p tcp --dport 6379 -j DROP
+sudo iptables -A INPUT -i eth0 -p tcp --dport 443 -j DROP
+sudo apt install netfilter-persistent
+sudo netfilter-persistent save
+sudo systemctl enable netfilter-persistent
 
