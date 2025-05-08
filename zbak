@@ -3,7 +3,7 @@
 # Variables
 CONTAINER_NAME="zpub_db1_1"
 ZDATABASE_NAME="wordpress"  # Replace with your actual database name
-DATABASE_NAME="zpub_db1_1"  # Replace with your actual database name
+DATABASE_NAME="zpub1"  # Replace with your actual database name
 USERNAME="root"  # Replace with your MySQL username
 PASSWORD="your_mysql_password"  # Replace with your MySQL password
 BACKUP_DIR="./"  # Replace with the directory where you want to save the backup
