@@ -46,7 +46,7 @@ services:
         define('WP_CACHE', true);
       REDIS_HOST: redis1
     volumes:
-      - /root/zpub/:/var/www/html/     
+      - /root/zpub/zwp1/:/var/www/html/     
 
   nginx:
     image: nginx:latest
