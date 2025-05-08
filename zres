@@ -4,9 +4,10 @@ CONTAINER_NAME="zpub_db1_1"
 DATABASE_NAME="wordpress"
 USERNAME="root"
 PASSWORD="your_mysql_password"
-BACKUP_ZIP="wordpress_1234.zip"
-BACKUP_FILE="wordpress_1234.sql"
-BACKFILE="wordpress_1234"
+FNAME="zpub1_1234"
+BACKUP_ZIP="$FNAME.zip"
+BACKUP_FILE="$FNAME.sql"
+BACKFILE="$FNAME"
 rm -f $BACKUP_ZIP
 rm -f $BACKUP_FILE
 cp $BACKFILE $BACKUP_ZIP
