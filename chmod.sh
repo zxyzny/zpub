@@ -25,4 +25,22 @@ chmod +x zbak13.sh
 chmod +x zbak14.sh
 chmod +x zbak15.sh
 chmod +x zbak16.sh
+chmod +x zres.sh
+chmod +x zres1.sh
+chmod +x zres2.sh
+chmod +x zres3.sh
+chmod +x zres4.sh
+chmod +x zres5.sh
+chmod +x zres6.sh
+chmod +x zres7.sh
+chmod +x zres8.sh
+chmod +x zres9.sh
+chmod +x zres10.sh
+chmod +x zres11.sh
+chmod +x zres12.sh
+chmod +x zres13.sh
+chmod +x zres14.sh
+chmod +x zres15.sh
+chmod +x zres16.sh
+
 
