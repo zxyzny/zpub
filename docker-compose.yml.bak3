@@ -53,8 +53,6 @@ services:
       - "80:80"
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
-      - ./index.html:/usr/share/nginx/html/index.html:ro
-      - ./index.htm:/usr/share/nginx/html/index.htm:ro
     depends_on:
       - wordpress1
       - wordpress2
