@@ -1,9 +1,10 @@
+
 #!/bin/bash
 
 # Variables
-CONTAINER_NAME="zpub_db3_1"
+CONTAINER_NAME="zpub_db14_1"
 ZDATABASE_NAME="wordpress"  # Replace with your actual database name
-DATABASE_NAME="zpub3"  # Replace with your actual database name
+DATABASE_NAME="zpub14"  # Replace with your actual database name
 USERNAME="root"  # Replace with your MySQL username
 PASSWORD="your_mysql_password"  # Replace with your MySQL password
 BACKUP_DIR="./"  # Replace with the directory where you want to save the backup
@@ -24,5 +25,5 @@ zip "$ZIP_FILE" "$SQL_DUMP_FILE"
 mv -f "$ZIP_FILE" "$BACKFILE"
 rm -f "$SQL_DUMP_FILE"
 echo "Backup completed: $ZIP_FILE"
-bash gitupdate.sh
+
 

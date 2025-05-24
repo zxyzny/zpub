@@ -1,10 +1,11 @@
+
 #!/bin/bash
 # Variables
-CONTAINER_NAME="zpub_db2_1"
+CONTAINER_NAME="zpub_db5_1"
 DATABASE_NAME="wordpress"
 USERNAME="root"
 PASSWORD="your_mysql_password"
-FNAME="zpub2_1234"
+FNAME="zpub5_1234"
 BACKUP_ZIP="$FNAME.zip"
 BACKUP_FILE="$FNAME.sql"
 BACKFILE="$FNAME"
