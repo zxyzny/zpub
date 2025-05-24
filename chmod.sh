@@ -8,3 +8,21 @@ chmod +x install.sh
 chmod +x zbackuprestoretest.sh
 chmod +x zbackuptest.sh
 chmod +x zchownconfig.sh
+chmod +x zbak.sh
+chmod +x zbak1.sh
+chmod +x zbak2.sh
+chmod +x zbak3.sh
+chmod +x zbak4.sh
+chmod +x zbak5.sh
+chmod +x zbak6.sh
+chmod +x zbak7.sh
+chmod +x zbak8.sh
+chmod +x zbak9.sh
+chmod +x zbak10.sh
+chmod +x zbak11.sh
+chmod +x zbak12.sh
+chmod +x zbak13.sh
+chmod +x zbak14.sh
+chmod +x zbak15.sh
+chmod +x zbak16.sh
+
