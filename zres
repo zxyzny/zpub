@@ -1,4 +1,6 @@
 
+bash gitupdate.sh
+
 ./zres1.sh
 ./zres2.sh
 ./zres3.sh
