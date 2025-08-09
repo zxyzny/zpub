@@ -1,4 +1,7 @@
-docker-compose restart
-docker ps -a
+# docker-compose restart
+# docker ps -a
+
+./down.sh
+./up.sh
 
 
