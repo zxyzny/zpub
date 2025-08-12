@@ -1,4 +1,6 @@
 
+bash gitupdate.sh
+
 ./zbak1.sh
 ./zbak2.sh
 ./zbak3.sh
